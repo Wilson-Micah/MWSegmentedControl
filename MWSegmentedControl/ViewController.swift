@@ -16,6 +16,7 @@ class ViewController: UIViewController, MWSegmentedControlDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         
         //Customize segmented control here.
+        self.segmentControl.font = UIFont(name: "Avenir-Book", size: 36)
         self.segmentControl.buttonTitles = ["Su", "M", "Tu", "W", "Th", "F", "Sa"]
         self.segmentControl.selectedIndexes = []
         self.segmentControl.allowMultipleSelection = true

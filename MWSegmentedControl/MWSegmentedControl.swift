@@ -9,19 +9,21 @@
 import UIKit
 
 @objc protocol MWSegmentedControlDelegate {
+    ///Set when segment changes
     optional func segmentDidChange(control: MWSegmentedControl, value: Int)
 }
 
 class MWSegmentedControl: UIView {
     var buttonTitles = ["7", "21", "30", "60", "90"]
-    let borderColor = UIColor(red:0.06, green:0.51, blue:1, alpha:1)
-    let textColor = UIColor.darkGrayColor()
+    var borderColor = UIColor(red:0.06, green:0.51, blue:1, alpha:1)
+    var textColor = UIColor.darkGrayColor()
     var font = UIFont(name: "Avenir-Heavy", size: 36)
     var delegate: MWSegmentedControlDelegate?
     var selectedSegments = [String]()
     var selectedIndexes = [2]
     var allowMultipleSelection = false
     var value: Int!
+    
     override func layoutSubviews() {
         self.layer.cornerRadius = 10
         self.layer.borderWidth = 2
