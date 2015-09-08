@@ -1,7 +1,7 @@
 # MWSegmentedControl
 Custom control for setting use with a segmented control that allows multiple selection with custom titles.
 
-![ScreenShot](https://raw.github.com/MicahTWilson/MWSegmentedControl/blob/master/MWSegmentedControl/MWSegmentedControlVideo.gif)
+![ScreenShot](https://github.com/MicahTWilson/MWSegmentedControl/blob/master/MWSegmentedControl/MWSegmentedControlVideo.gif)
 
 Add MWSegmentedControl.swift to your project
 
