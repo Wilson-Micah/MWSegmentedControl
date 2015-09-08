@@ -13,6 +13,7 @@
 		539F90E11B9F5B2100C80D3C /* MWSegmentedControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 539F90DF1B9F5B2100C80D3C /* MWSegmentedControl.xcdatamodeld */; };
 		539F90E31B9F5B2100C80D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539F90E21B9F5B2100C80D3C /* Assets.xcassets */; };
 		539F90E61B9F5B2100C80D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539F90E41B9F5B2100C80D3C /* LaunchScreen.storyboard */; };
+		539F90EE1B9F5B5F00C80D3C /* MWSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539F90ED1B9F5B5F00C80D3C /* MWSegmentedControl.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		539F90E21B9F5B2100C80D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		539F90E51B9F5B2100C80D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		539F90E71B9F5B2100C80D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		539F90ED1B9F5B5F00C80D3C /* MWSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				539F90D81B9F5B2100C80D3C /* AppDelegate.swift */,
 				539F90DA1B9F5B2100C80D3C /* ViewController.swift */,
+				539F90ED1B9F5B5F00C80D3C /* MWSegmentedControl.swift */,
 				539F90DC1B9F5B2100C80D3C /* Main.storyboard */,
 				539F90E21B9F5B2100C80D3C /* Assets.xcassets */,
 				539F90E41B9F5B2100C80D3C /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539F90EE1B9F5B5F00C80D3C /* MWSegmentedControl.swift in Sources */,
 				539F90DB1B9F5B2100C80D3C /* ViewController.swift in Sources */,
 				539F90E11B9F5B2100C80D3C /* MWSegmentedControl.xcdatamodeld in Sources */,
 				539F90D91B9F5B2100C80D3C /* AppDelegate.swift in Sources */,
